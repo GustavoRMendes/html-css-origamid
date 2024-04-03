@@ -19,3 +19,15 @@ button {
   color: white;
   cursor: pointer;
 }
+
+
+.checkbox {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px;
+  align-items: center;
+}
+.checkbox label {
+  margin: 0px;
+  display: inline-block;
+}
