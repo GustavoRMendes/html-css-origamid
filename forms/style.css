@@ -26,8 +26,25 @@ button {
   grid-template-columns: auto 1fr;
   gap: 10px;
   align-items: center;
+  margin: 10px;
 }
 .checkbox label {
   margin: 0px;
   display: inline-block;
+}
+.select {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+}
+select {
+  font-size: 1rem;
+  padding: 10px;
+  background-color: #141414;
+  color: white;
+  border: none;
+  border-radius: 2px;
 }
