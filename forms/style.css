@@ -12,6 +12,7 @@ button {
   display: block;
   padding: 6px 12px;
   margin-top: 10px;
+  margin-bottom: 30px;
   border: none;
   border-radius: 2px;
   background-color: crimson;
@@ -47,4 +48,33 @@ select {
   color: white;
   border: none;
   border-radius: 2px;
+}
+
+
+[required] {
+  border: 2px solid crimson;
+}
+
+[href ='#contato'] {
+  background-color: green;
+  color: white;
+}
+
+/* Links Internos do site */
+[href^='#'] {
+  background-color: blue;
+  padding: 10px;
+}
+
+/* Links que terminam  */
+
+[href$='.com'] {
+  color: rgb(0, 132, 255);
+  text-decoration: none;
+}
+
+/* p + p não seleciona o primeiro */
+
+p + p {
+  margin-top: 10px;
 }
